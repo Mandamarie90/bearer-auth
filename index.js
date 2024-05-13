@@ -2,7 +2,6 @@
 
 require('dotenv').config(); // Corrected syntax
 
-
 const { start } = require('./src/server.js');
 const { db } = require('./src/auth/models/index.js');
 
